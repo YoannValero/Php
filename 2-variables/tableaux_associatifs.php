@@ -12,12 +12,16 @@ $pierre = array("1"=>"Php","2"=>"Javascript","3"=>"Python");
 $paul = array("1"=>"Javascript","2"=>"Css","3"=>"Php");
 $jacques = array("1"=>"Java","2"=>"Php","3"=>"Javascript");
 
+// merge array 
 $preferences = array_merge($pierre, $paul, $jacques);
 var_dump($preferences);
+
+// with key
 $preferencesWithName = ['Pierre'=>$pierre, 'Paul'=>$paul, 'Jacques' => $jacques];
 var_dump($preferencesWithName);
 
-var_dump(array_count_values($preferences)); // count occurences
+// count occurences
+var_dump(array_count_values($preferences)); 
 
 
 
