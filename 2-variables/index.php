@@ -19,7 +19,7 @@
         echo $helloWorld. '<br>';
 
         $montantHt = 15.2;
-        $montantTtc = 'Le montant TTC est ' .$montantHt * 1.2 ;
+        $montantTtc = 'Le montant TTC est '.$montantHt * 1.2 ;
         echo $montantTtc;
     ?>
 </body>
