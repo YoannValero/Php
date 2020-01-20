@@ -11,3 +11,10 @@
 * [Loto](/3_tableaux/loto/index.php)(__Done__)
 * [Villes](/3_tableaux/villes/index.php)(__Done__)
 
+
+[4. DRY](/4_DRY)
+* [Pierre, Paul, jacquot s'organisent]
+
+[5. Structure d'application](/5_STRUCTURE_D_APPLICATION)
+
+
