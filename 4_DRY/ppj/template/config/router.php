@@ -1,0 +1,22 @@
+<?php
+
+class Router
+    {
+  
+
+        function getTemplate($target, $valueInitIndex)
+        {
+            if (empty($_GET)) {  // if $_GET is empty, accueil.php is loaded
+                include "pages/$valueInitIndex";
+            } else if (isset($_GET['page'])) {
+                if (array_key_exists($_GET['page'], $target)) {
+                    include "pages/" . $_GET['page'] . ".php";
+                } else {
+                    echo "<h1 style='color:black;'>Page not Found<br>
+                       Tu croivais quoi, tu croivais pouvoir m'avais avoir ?</h1>";
+                }
+            }
+        }
+        
+    }
+?>

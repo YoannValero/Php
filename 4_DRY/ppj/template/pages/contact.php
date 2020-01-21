@@ -1,6 +1,5 @@
 
-<?php include_once 'assets/config.php' ?>
-<?php include 'menu.php' ?>
+
 
     <!-- First Container -->
     <div class="container-fluid bg-1">
@@ -26,13 +25,4 @@
         </form>
     </div>
 
-    <!-- Footer -->
-    <footer class="container-fluid bg-4 text-center">
-        <p>Bootstrap Theme Made By
-            <a href="https://www.w3schools.com">www.w3schools.com</a>
-        </p>
-    </footer>
-
-</body>
-
-</html>
+   
