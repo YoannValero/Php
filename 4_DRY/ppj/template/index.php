@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    
     <?php include 'config/config.php'; ?>
+    
     <head>
         <!-- Theme Made By www.w3schools.com - No Copyright -->
         <title><?= title ?></title>
@@ -12,8 +12,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="<?= cheminCss ?>">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
     </head>
     
     <body>
