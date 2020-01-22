@@ -2,7 +2,7 @@
 <html lang="en">
 
     <?php include 'config/config.php'; ?>
-    
+
     <head>
         <!-- Theme Made By www.w3schools.com - No Copyright -->
         <title><?= title ?></title>
@@ -16,17 +16,13 @@
     </head>
     
     <body>
-        <!-- NAV -->
         <?php
-            include cheminMenus;
-            include 'config/router.php';
-  
-        $init = new Router;
-        $init->getTemplate(root, 'accueil.php');
+        include nav;
 
-        ?>
-        <!-- Footer -->
-        <?php require cheminFooter; ?>
+        include 'config/router.php';
+        $init = new Router(root, 'accueil.php');
+        
+        require footer; ?>
 
     </body>
 

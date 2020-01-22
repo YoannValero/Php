@@ -1,7 +1,11 @@
 <?php
 
 class Router  {
-  
+
+    public function __construct($target, $valueInitIndex) {
+        $this->getTemplate($target, $valueInitIndex);
+    }
+    
     public function getTemplate($target, $valueInitIndex) {
 
         if (empty($_GET)) {  // if $_GET is empty, accueil.php is loaded
@@ -15,5 +19,6 @@ class Router  {
             }
         }
     }
-}
+}      
+
 ?>

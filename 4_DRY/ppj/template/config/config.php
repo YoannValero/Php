@@ -3,8 +3,8 @@
 define("title", "Pierre, Paul, Jacquot");
 
 // nav, footer
-define("cheminMenus", "template-parts/menu.php");
-define("cheminFooter", "template-parts/footer.php");
+define("nav", "template-parts/menu.php");
+define("footer", "template-parts/footer.php");
  
 //Images, CSS
 define("cheminImages", "assets/img"); 
